@@ -79,7 +79,6 @@ if isempty(t)
     t = (0:length(data)-1)'./fs;
 end
 
-assignin('base','argin',varargin);
 args = {};
 if nargin>=narg
     if isstruct(varargin{narg})
